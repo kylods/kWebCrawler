@@ -1,0 +1,20 @@
+{
+  "name": "kwebcrawler",
+  "version": "1.0.0",
+  "description": "Web Crawler project for learning Node.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylods/kWebCrawler.git"
+  },
+  "author": "Kyle Dvorak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylods/kWebCrawler/issues"
+  },
+  "homepage": "https://github.com/kylods/kWebCrawler#readme"
+}
