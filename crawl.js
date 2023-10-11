@@ -1,4 +1,5 @@
 const { JSDOM } = require('jsdom')
+const { printReport } = require('./report.js')
 
 function normalizeURL(url) {
     let processedURL = ""
@@ -106,7 +107,7 @@ async function main(){
     console.log(`Crawler starting at ${baseURL}`)
     const pages = {}
     await crawlPage(baseURL, baseURL, pages)
-    console.log(JSON.stringify(pages, null, 2))
+    printReport(pages)
 }
 
 main()
