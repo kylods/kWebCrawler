@@ -4,8 +4,8 @@
   "description": "Web Crawler project for learning Node.js",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+    "test": "jest",
+    "start": "node crawl.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/kylods/kWebCrawler/issues"
   },
-  "homepage": "https://github.com/kylods/kWebCrawler#readme"
+  "homepage": "https://github.com/kylods/kWebCrawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  }
 }
